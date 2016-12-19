@@ -1,2 +1,2 @@
 # Data-Structures
-A quick review of data structures.
+A quick review of important data structures.
