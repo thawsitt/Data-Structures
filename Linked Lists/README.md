@@ -13,6 +13,8 @@
 
 * A linked list is a **dynamic data structure**. The number of nodes in a list is not fixed and can grow and shrink on demand. Any application which has to deal with an unknown number of objects will need to use a linked list.
 
+&nbsp;
+
 ## Types of Linked Lists
 ### **Singly Linked List**
 A linked list in which each node has a single reference: one to the next node.
@@ -24,14 +26,17 @@ A linked list in which each node has two references: one to the next node and an
 ![Doubly Linked List](http://upload.wikimedia.org/wikipedia/commons/5/5e/Doubly-linked-list.svg)
 
 ### **Circular Linked List**
-Similar to doubly linked list, except that the last node of the list points back to the first node (or the head) of the list.
+Similar to a singly linked list, except that the last node of the list points back to the first node (or the head) of the list.
 
 ![Circular Linked List](http://upload.wikimedia.org/wikipedia/commons/d/df/Circularly-linked-list.svg)
 
+&nbsp;
 
 ## Common Linked List Functions
 
 The following functions are written in C for use with a singly linked list.
+
+&nbsp;
 
 ### Define a Linked List Node
 ```c
@@ -41,6 +46,8 @@ struct node {
 };
 ```
 
+&nbsp;
+
 ### Create a Linked List
 ```c
 struct node* head = NULL;
@@ -49,6 +56,8 @@ if (head == NULL) return 1;    // make sure malloc doesn't return NULL
 head->val = 1;
 head->next = NULL;
 ```
+
+&nbsp;
 
 ### Length of a linked list
 ```c
@@ -69,6 +78,8 @@ int Length(struct node* head) {
 }
 ```
 
+&nbsp;
+
 ### Adding an item at the beginning of the list (push)
 Here, we need **a double pointer** (i.e a pointer to a ```node*```) because we need to change the head pointer that is 
 passed to the function as a function argument, and to do so, we need a double pointer. You can read more [here](http://stackoverflow.com/questions/5580761/why-use-double-pointer-or-why-use-pointers-to-pointers).
@@ -84,6 +95,7 @@ void push(struct node** headRef, int val) {
 
 ```
 
+&nbsp;
 
 ### Adding an item at the end of the list (append)
 Again, we pass in a double pointer (```node**```) because we *might* need to change the head pointer, 
@@ -115,6 +127,8 @@ void append(struct node** headRef, int val) {
     }  
 }
 ```
+
+&nbsp;
 
 ## References
 * This guide is based on: https://www.cs.cmu.edu/~adamchik/15-121/lectures/Linked%20Lists/linked%20lists.html
