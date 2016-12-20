@@ -18,11 +18,13 @@
 ## Types of Linked Lists
 ### **Singly Linked List**
 A linked list in which each node has a single reference: one to the next node.
+
 ![Singly Linked List](http://upload.wikimedia.org/wikipedia/commons/6/6d/Singly-linked-list.svg)
 
 
 ### **Doubly Linked List**
 A linked list in which each node has two references: one to the next node and another to previous node.
+
 ![Doubly Linked List](http://upload.wikimedia.org/wikipedia/commons/5/5e/Doubly-linked-list.svg)
 
 ### **Circular Linked List**
