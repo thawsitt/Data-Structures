@@ -58,7 +58,7 @@ Return a head pointer to a newly created linked list.
 struct node* create_linked_list(int val) {
     struct node* head = NULL;
     head = malloc(sizeof(struct node));
-    if (head == NULL) return 1;    // make sure malloc doesn't return NULL
+    assert(head != NULL);      // making sure malloc didn't return NULL
     head->val = 1;
     head->next = NULL;
     return head;
