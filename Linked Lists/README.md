@@ -1,6 +1,9 @@
 # Linked Lists
 
 ## Quick Overview
+
+![Linked List](https://upload.wikimedia.org/wikipedia/commons/6/6d/Singly-linked-list.svg)
+
 * A linked list is a linear data structure where each element is a separate object.
 
 * Each element (we will call it a **node**) of a list is comprising of two items - the data and a reference to the next node. 
@@ -13,15 +16,18 @@
 ## Types of Linked Lists
 ### **Singly Linked List**
 A linked list in which each node has a single reference: one to the next node.
-![Singly Linked List](images/linkedlist.bmp)
+![Singly Linked List](http://upload.wikimedia.org/wikipedia/commons/6/6d/Singly-linked-list.svg)
 
 
 ### **Doubly Linked List**
 A linked list in which each node has two references: one to the next node and another to previous node.
-![Doubly Linked List](images/doubly.bmp)
+![Doubly Linked List](http://upload.wikimedia.org/wikipedia/commons/5/5e/Doubly-linked-list.svg)
 
 ### **Circular Linked List**
 Similar to doubly linked list, except that the last node of the list points back to the first node (or the head) of the list.
+
+![Circular Linked List](http://upload.wikimedia.org/wikipedia/commons/d/df/Circularly-linked-list.svg)
+
 
 ## Common Linked List Functions
 
