@@ -2,7 +2,7 @@
 
 ## Quick Overview
 
-![Linked List](https://upload.wikimedia.org/wikipedia/commons/6/6d/Singly-linked-list.svg)
+![Linked List](images/linkedlist.bmp)
 
 * A linked list is a linear data structure where each element is a separate object.
 
