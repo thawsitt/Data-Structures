@@ -52,11 +52,19 @@ struct node {
 
 ### Create a Linked List
 ```c
-struct node* head = NULL;
-head = malloc(sizeof(struct node));
-if (head == NULL) return 1;    // make sure malloc doesn't return NULL
-head->val = 1;
-head->next = NULL;
+/*
+Return a head pointer to a newly created linked list.
+*/
+struct node* create_linked_list(int val) {
+    struct node* head = NULL;
+    head = malloc(sizeof(struct node));
+    if (head == NULL) return 1;    // make sure malloc doesn't return NULL
+    head->val = 1;
+    head->next = NULL;
+    return head;
+}
+
+
 ```
 
 &nbsp;
@@ -67,7 +75,7 @@ head->next = NULL;
 Given a linked list head pointer, compute
 and return the number of nodes in the list.
 */
-int Length(struct node* head) {
+int find_length(struct node* head) {
     struct node* current = head;
     int count = 0;
     
