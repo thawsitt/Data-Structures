@@ -5,4 +5,4 @@
 <a href="https://en.wikipedia.org/wiki/Tree_(data_structure)"><img alt="an undirected tree" src="https://upload.wikimedia.org/wikipedia/commons/f/f7/Binary_tree.svg" width="250"></a>
 
 # Terminology
-* For a concise and beautifully illustrated terminology of tree data structure, go [here](http://btechsmartclass.com/DS/U3_T1.html).
+* For a concise and beautifully illustrated terminology of tree data structure, go <a href="http://btechsmartclass.com/DS/U3_T1.html" target="_blank">here</a>.
