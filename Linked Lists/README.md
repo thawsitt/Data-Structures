@@ -42,9 +42,14 @@ The following functions are written in C for use with a singly linked list.
 
 ### Define a Linked List Node
 ```c
+/*
+A node in a singly linked list consists of two components.
+(1). The data to store inside the node
+(2). Pointer to the next node.
+*/
 struct node {
-    int data;              // data stored inside a node
-    struct node* next;     // pointer to the next node
+    int data;
+    struct node* next;
 };
 ```
 
@@ -95,6 +100,11 @@ Here, we need **a double pointer** (i.e a pointer to a ```node*```) because we n
 passed to the function as a function argument, and to do so, we need a double pointer. You can read more [here](http://stackoverflow.com/questions/5580761/why-use-double-pointer-or-why-use-pointers-to-pointers).
 
 ```c
+/*
+Given a pointer to the head pointer of a linked list,
+and an integer value, add a new node with the given value
+at the beginning of the linked list.
+*/
 void push(struct node** headRef, int val) {
     struct node* newNode;
     newNode = malloc(sizeof(struct node));
@@ -113,8 +123,8 @@ if the linked list is empty. (Notice, in this case, it is the same as the above 
 
 ```c
 /*
-Given a head pointer to the start of a linked list,
-and an integer value, add a new node with the value
+Given a a pointer to the head pointer of a linked list,
+and an integer value, add a new node with the given value
 at the end of the linked list.
 */
 void append(struct node** headRef, int val) {
