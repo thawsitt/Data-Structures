@@ -156,3 +156,5 @@ void append(struct node** headRef, int val) {
 * To learn more about Linked Lists: http://cslibrary.stanford.edu/103/LinkedListBasics.pdf
 
 * For Linked List implementation in C: http://www.learn-c.org/en/Linked_lists
+
+* For practice problems by Stanford: http://cslibrary.stanford.edu/105/LinkedListProblems.pdf
